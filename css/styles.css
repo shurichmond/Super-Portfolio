@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
 }
-
 h1{
 font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 font-weight: 700;
@@ -23,12 +22,12 @@ padding: 1.5rem;
 }
 
 .logo {
-    margin-top: 10px;
-    font-family: Arial, Helvetica, sans-serif;
+margin-top: 10px;
+font-family: Arial, Helvetica, sans-serif;
 font-style: normal;
 font-weight: 700;
 font-size: 18px;
-    color: #6070FF;
+color: #6070FF;
     
 }
 
