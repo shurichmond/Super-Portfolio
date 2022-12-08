@@ -35,14 +35,15 @@ h1 {
 }
 
 .section-header {
-  background-image: url(/Img/header-shapes\ mobile.png);
+  background-image: url(../Img/Header-img.png);
   background-repeat: no-repeat;
   background-clip: content-box;
-  background-size: 100%;
+  background-size: cover;
   background-position: 80% 5%;
 }
 
 .primary-heading {
+  
   padding-top: 4rem;
 }
 
