@@ -40,14 +40,14 @@ h1 {
   background-clip: content-box;
   background-size: cover;
   background-position: 80% 5%;
-  /* height: 100vh; */
 }
 
 .primary-heading {
   padding-top: 4rem;
 }
 
-.secondary-tex, .paraText {
+.secondary-tex,
+.paraText {
   width: 80%;
   padding: 1.5rem;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -68,6 +68,7 @@ h1 {
 .connecting-text {
   padding-left: 1.5rem;
 }
+
 /* .socialMedia__group {
   padding-left: 1.5rem;
 } */
