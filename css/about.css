@@ -14,7 +14,7 @@
   align-items: center;
   padding: 114px 24px;
   gap: 24px;
-  position: absolute;
+  /* position: absolute; */
   width: 375px;
   height: 1125.15px;
   left: calc(50% - 375px / 2);
