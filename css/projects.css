@@ -133,7 +133,7 @@
   color: #396df2;
 }
 
-form {
+/* form {
   padding: 2em 1em;
   display: grid;
 }
@@ -148,4 +148,4 @@ textarea {
 
 form > button {
   width: fit-content;
-}
+} */

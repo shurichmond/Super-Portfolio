@@ -14,6 +14,7 @@
     - [Run tests](#run-tests)
     - [Deployment](#deployment)
   - [👥 Authors ](#-authors-)
+  - [🔭 Future Features ](#-future-features-)
   - [🤝 Contributing ](#-contributing-)
   - [⭐️ Show your support ](#️-show-your-support-)
   - [🙏 Acknowledgments ](#-acknowledgments-)
@@ -134,12 +135,25 @@ Example:
 
 ## 👥 Authors <a name="authors"></a>
 
-👤 **Author1**
+👤 **Author1** Richmond Shu Nfortayong
 
 - GitHub: [@githubhandle](https://github.com/shurichmond)
 - Twitter: [@twitterhandle](https://twitter.com/shurichmond85)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/shu-nfortayong-richmond-10a28620a/)
 
+👤 **Author2** Muhammad Usman Aslam
+
+- GitHub: [@githubhandle](https://github.com/MuhammadUsanAslam)
+- Twitter: [@twitterhandle](https://twitter.com/M_Usman_Aslam)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/muhammad-usman-aslam)
+
+<!-- FUTURE FEATURES -->
+
+## 🔭 Future Features <a name="future-features"></a>
+
+- [ ] **[Contact form and design improvements]**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🤝 Contributing <a name="contributing"></a>
 
