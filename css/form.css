@@ -7,61 +7,31 @@
   border-radius: 5em 0 0 0;
   width: 375px;
   height: 779px;
-
-  /* left: 0px; */
   top: 5410px;
   padding: 114px 24px;
-
-  /* padding: 2em 1em; */
   display: flex;
   flex-direction: column;
-
-  /* justify-content: center; */
   align-items: center;
   background: #6070ff;
   background-image: url(../Img/contact-form-shapes.png);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: 100% 20%;
-
-  /* background-position-x: right; */
-
-  /* padding: 114px 24px; */
 }
 
 .contact-form .form-header {
-  /* position: absolute; */
-
-  /* width: 801px;
-  height: 56px;
-  left: -213px;
-  top: 4734px; */
-
-  /* Header / 2 */
-
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
   line-height: 52px;
-
-  /* or 130% */
-
   display: flex;
   align-items: center;
   text-align: center;
-
-  /* Neutrals/N0 */
-
   color: #fff;
 }
 
 .contact-form .form-text {
-  /* width: 327px;
-  height: 102px;
-  left: 24px;
-  top: 4802px; */
-
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -69,15 +39,11 @@
   line-height: 28px;
   text-align: center;
   margin: 2em 0;
-  /* Primary/B50 */
-
   color: #ebebff;
 }
 
 form {
   width: 100%;
-
-  /* padding: 2em 1em; */
   display: grid;
 }
 
