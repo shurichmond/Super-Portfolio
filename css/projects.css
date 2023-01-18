@@ -132,3 +132,20 @@
   letter-spacing: 0.03em;
   color: #396df2;
 }
+
+/* form {
+  padding: 2em 1em;
+  display: grid;
+}
+
+form > input,
+textarea {
+  margin: 1em 0;
+  padding: 1em;
+  border-radius: 5px;
+  border: 1px solid #396df2;
+}
+
+form > button {
+  width: fit-content;
+} */
