@@ -41,6 +41,11 @@
 .Card-Works .Snapshot {
   width: 295px;
   height: 220px;
+  transition: transform 1s;
+}
+
+.Snapshot:hover {
+  transform: scale(1.2);
 }
 
 .Card-Works .info-block {
