@@ -5,242 +5,241 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="./css/styles.css">
+    <script src="https://kit.fontawesome.com/4e655bdddb.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
     <link rel="stylesheet" type="text/css" href="./css/projects.css">
     <link rel="stylesheet" type="text/css" href="./css/about.css">
     <link rel="stylesheet" type="text/css" href="./css/form.css">
     <title>Personal-Profolio</title>
+    
 </head>
 
 <body>
-
+    <!-- Header Section Starts Here -->
     <header>
-        <nav class="Header">
-
-            <ul class="header-logo">
-                <li class="logo"> My Logo </li>
-                <li class="hamburg-logo"><img src="Img/Hlogo.png" alt="hamburger icon"> </li>
+        <h1 class="logo"><a href="#">My Logo</a></h1>
+        <nav>
+            <svg class="nav-menu-button" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M3 7C3 6.44772 3.44772 6 4 6H20C20.5523 6 21 6.44772 21 7C21 7.55228 20.5523 8 20 8H4C3.44772 8 3 7.55228 3 7ZM3 12C3 11.4477 3.44772 11 4 11L20 11C20.5523 11 21 11.4477 21 12C21 12.5523 20.5523 13 20 13L4 13C3.44772 13 3 12.5523 3 12ZM4 16C3.44772 16 3 16.4477 3 17C3 17.5523 3.44772 18 4 18H20C20.5523 18 21 17.5523 21 17C21 16.4477 20.5523 16 20 16H4Z"
+                    fill="#6070FF" />
+            </svg>
+            <ul class="nav-links">
+                <li class="nav-link">Portfolio</li>
+                <li class="nav-link">About</li>
+                <li class="nav-link">Contact</li>
             </ul>
         </nav>
-    </header>
-    <section class="section-header">
-        <h1 class="primary-heading"> I’m Mariane Glad to see you! </h1>
-        <p class="secondary-tex paraTextt"> I’m a software developer! I can help you <br> build a product , feature
-            or
-            website Look through some of my work and experience! If you like what you see and have a project
-            you need coded, don’t hestiate to contact me. </p>
-    </section>
-    <section class="connecting-text">
-        <a href="projects.html">LET’S CONNECT </a>
-        <ul class="socialMedia__group">
-            <li class="socialMedia__group-list"> <a href="#"><img src="Img/-twitter.png" alt=""></a></li>
-            <li class="socialMedia__group-list"> <a href="#"><img src="Img/Linkedin icon.png" alt=""></a>
-            </li>
-            <li class="socialMedia__group-list"> <a href="#"><img src="Img/-medium.png" alt=""></a></li>
-            <li class="socialMedia__group-list"> <a href="#"><img src="Img/github.png" alt=""></a></li>
-            <li class="socialMedia__group-list"> <a href="#"><img src="Img/-handlogo.png" alt=""></a></li>
 
+    </header>
+    <!-- Header Section Ends Here -->
+    <!-- Headline Section Starts Here -->
+    <section class="headline-main">
+        <div class="headline">
+            <h1 class="headline-heading heading-large">I'm Mariane <br> Glad to see you!</h1>
+            <p class="headline-paragraph paragraph">I’m a software developer! I can help you build a product , feature
+                or website
+                Look
+                through some of my work
+                and experience! If you like what you see and have a project you need coded, don’t hestiate to contact
+                me.
+            </p>
+            <p class="headline-sm-suport">LET’S CONNECT</p>
+            <ul class="social-icons">
+                <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-medium"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-github"></i></a></li>
+            </ul>
+        </div>
+    </section>
+    <!-- Headline Section Ends Here -->
+
+    <!-- Works Section Starts Here -->
+
+    <section class="projects">
+        <!-- Card 1 starts -->
+        <ul class="works-cards">
+            <li class="works-card">
+                <img src="./Img/snapshoot-portfolio.png" alt="Recent Work">
+                <div class="works-card-main">
+                    <h3 class="works-card-heading-large">Tonic</h3>
+                    <div class="works-card-client">
+                        <p class="paragraph">CANOPY</p>
+                        <i class="fa-solid fa-circle works-card-client-counter"></i>
+                        <p class="works-card-client-role paragraph">Back End Dev</p>
+                        <i class="fa-solid fa-circle works-card-client-counter"></i>
+                        <p class="works-card-client-year paragraph">2015</p>
+                    </div>
+                    <p class="paragraph works-card-paragraph">
+                        A daily selection of privately personalized reads; no accounts or sign-ups required.
+                    </p>
+                    <ul class="works-card-tags">
+                        <li class="works-card-tag">html</li>
+                        <li class="works-card-tag">css</li>
+                        <li class="works-card-tag">javascript</li>
+                    </ul>
+                    <button>See Project</button>
+                </div>
+            </li>
+            <!-- Card 1 Ends -->
+            <!-- Card 2 starts -->
+            <li class="works-card">
+                <img src="./Img/snapshoot-portfolio-1.png" alt="Recent Work">
+                <div class="works-card-main">
+                    <h3 class="works-card-heading-large">Multi-Post Stories</h3>
+                    <div class="works-card-client">
+                        <p class="paragraph">CANOPY</p>
+                        <i class="fa-solid fa-circle works-card-client-counter"></i>
+                        <p class="works-card-client-role paragraph">Back End Dev</p>
+                        <i class="fa-solid fa-circle works-card-client-counter"></i>
+                        <p class="works-card-client-year paragraph">2015</p>
+                    </div>
+                    <p class="paragraph works-card-paragraph">
+                        A daily selection of privately personalized reads; no accounts or sign-ups required.
+                    </p>
+                    <ul class="works-card-tags">
+                        <li class="works-card-tag">html</li>
+                        <li class="works-card-tag">css</li>
+                        <li class="works-card-tag">javascript</li>
+                    </ul>
+                    <button>See Project</button>
+                </div>
+            </li>
+            <!-- Card 2 Ends -->
+            <!-- Card 3 starts -->
+            <li class="works-card">
+                <img src="./Img/snapshoot-portfolio-2.png" alt="Recent Work">
+                <div class="works-card-main">
+                    <h3 class="works-card-heading-large">Tonic</h3>
+                    <div class="works-card-client">
+                        <p class="paragraph">CANOPY</p>
+                        <i class="fa-solid fa-circle works-card-client-counter"></i>
+                        <p class="works-card-client-role paragraph">Back End Dev</p>
+                        <i class="fa-solid fa-circle works-card-client-counter"></i>
+                        <p class="works-card-client-year paragraph">2015</p>
+                    </div>
+                    <p class="paragraph works-card-paragraph">
+                        A daily selection of privately personalized reads; no accounts or sign-ups required.
+                    </p>
+                    <ul class="works-card-tags">
+                        <li class="works-card-tag">html</li>
+                        <li class="works-card-tag">css</li>
+                        <li class="works-card-tag">javascript</li>
+                    </ul>
+                    <button>See Project</button>
+                </div>
+            </li>
+            <!-- Card 3 Ends -->
+            <!-- Card 4 starts -->
+            <li class="works-card">
+                <img src="./Img/snapshoot-portfolio-3.png" alt="Recent Work">
+                <div class="works-card-main">
+                    <h3 class="works-card-heading-large">Multi-Post Stories</h3>
+                    <div class="works-card-client">
+                        <p class="paragraph">CANOPY</p>
+                        <i class="fa-solid fa-circle works-card-client-counter"></i>
+                        <p class="works-card-client-role paragraph">Back End Dev</p>
+                        <i class="fa-solid fa-circle works-card-client-counter"></i>
+                        <p class="works-card-client-year paragraph">2015</p>
+                    </div>
+                    <p class="paragraph works-card-paragraph">
+                        A daily selection of privately personalized reads; no accounts or sign-ups required.
+                    </p>
+                    <ul class="works-card-tags">
+                        <li class="works-card-tag">html</li>
+                        <li class="works-card-tag">css</li>
+                        <li class="works-card-tag">javascript</li>
+                    </ul>
+                    <button>See Project</button>
+                </div>
+            </li>
         </ul>
     </section>
-
-    <section class="Projects">
-        <section class="Card-Works">
-            <div class="Snapshot">
-                <img src="./Img/snapshoot-portfolio.png" alt="snapshot poortfolio" class="snapshot">
-
-            </div>
-            <div class="info-block">
-                <h1 class="project-title">Tonic</h1>
-                <ul class="frame">
-                    <span class="client">
-                        CANOPY</span>
-                    <img src="./Img/Counter.png" alt="" class="counter">
-                    <span class="role">Back End Dev</span>
-                    <img src="./Img/Counter.png" alt="" class="counter">
-                    <span class="year">2015</span>
-
-                </ul>
-                <p class="details">
-                    A daily selection of privately personalized reads; no accounts or sign-ups required.
+    <!-- Works Section Ends Here -->
+    <!-- About Section Starts Here -->
+    <section class="about">
+        <div class="headline-skill-container">
+            <div class="headline">
+                <h1 class="headline-heading heading-large">About <br> Myself</h1>
+                <p class="headline-paragraph paragraph">I’m a software developer! I can help you build a product ,
+                    feature
+                    or website
+                    Look
+                    through some of my work
+                    and experience! If you like what you see and have a project you need coded, don’t hestiate to
+                    contact
+                    me.
                 </p>
-                <ul class="tags">
-                    <li>html</li>
-                    <li>css</li>
-                    <li>javaScript</li>
+                <p class="headline-sm-suport">LET’S CONNECT</p>
+                <ul class="social-icons">
+                    <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-medium"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-github"></i></a></li>
                 </ul>
-
-                <button class="see-project">See Project</button>
-
+                <button>Get my resume</button>
             </div>
-        </section>
-
-        <section class="Card-Works">
-            <div class="Snapshot">
-                <img src="./Img/snapshoot-portfolio-1.png" alt="snapshot poortfolio" class="snapshot">
-
-            </div>
-            <div class="info-block">
-
-                <h1 class="project-title">Multi-Post Stories</h1>
-                <ul class="frame">
-                    <span class="client"> CANOPY</span>
-                    <img src="./Img/Counter.png" alt="" class="counter">
-                    <span class="role">Back End Dev</span>
-                    <img src="./Img/Counter.png" alt="" class="counter">
-                    <span class="year">2015</span>
-
-                </ul>
-                <p class="details">
-                    A daily selection of privately personalized reads; no accounts or sign-ups required.
-                </p>
-                <ul class="tags">
-                    <li>html</li>
-                    <li>css</li>
-                    <li>javaScript</li>
-                </ul>
-                <button class="see-project">See Project</button>
-            </div>
-
-        </section>
-
-        <section class="Card-Works">
-            <div class="Snapshot">
-                <img src="./Img/snapshoot-portfolio-2.png" alt="snapshot poortfolio" class="snapshot">
-
-            </div>
-            <div class="info-block">
-
-                <h1 class="project-title">Tonic</h1>
-                <ul class="frame">
-                    <span class="client"> CANOPY</span>
-                    <img src="./Img/Counter.png" alt="" class="counter">
-                    <span class="role">Back End Dev</span>
-                    <img src="./Img/Counter.png" alt="" class="counter">
-                    <span class="year">2015</span>
-
-                </ul>
-                <p class="details">
-                    A daily selection of privately personalized reads; no accounts or sign-ups required.
-                </p>
-                <ul class="tags">
-                    <li>html</li>
-                    <li>css</li>
-                    <li>javaScript</li>
-                </ul>
-                <button class="see-project">See Project</button>
-            </div>
-
-        </section>
-
-        <section class="Card-Works">
-            <div class="Snapshot">
-                <img src="./Img/snapshoot-portfolio-3.png" alt="snapshot poortfolio" class="snapshot">
-
-            </div>
-            <div class="info-block">
-
-                <h1 class="project-title">Multi-Post Stories</h1>
-                <ul class="frame">
-                    <span class="client"> CANOPY</span>
-                    <img src="./Img/Counter.png" alt="" class="counter">
-                    <span class="role">Back End Dev</span>
-                    <img src="./Img/Counter.png" alt="" class="counter">
-                    <span class="year">2015</span>
-
-                </ul>
-                <p class="details">
-                    A daily selection of privately personalized reads; no accounts or sign-ups required.
-                </p>
-                <ul class="tags">
-                    <li>html</li>
-                    <li>css</li>
-                    <li>javaScript</li>
-                </ul>
-
-                <button class="see-project">See Project</button>
-            </div>
-
-        </section>
-    </section>
-
-    <section class="about-wrapper">
-        <div class="TOP">
-
-            <h1 class="title">About Myself</h1>
-            <p class="description">
-                Hello I’m a software developer! I can help you build a product , feature or
-                website. Look through some of my work and experience! If you like what you
-                see and have a project you need coded, don’t hestiate to contact me.
-            </p>
-            <div class="social-media">
-                <a href="#">
-                    <p class="connect">LET’S CONNECT</p>
-                </a>
-                <ul class="frame">
-
-                    <li class="icon"><a href="#"><img src="./Img/-twitter.png" alt=""></a></li>
-                    <li class="icon"><a href="#"><img src="./Img/Linkedin icon.png" alt=""></a></li>
-                    <li class="icon"><a href="#"><img src="./Img/-medium.png" alt=""></a></li>
-                    <li class="icon"><a href="#"><img src="./Img/github.png" alt=""></a></li>
-                    <li class="icon"><a href="#"><img src="./Img/victory-icon.svg" alt=""></a></li>
-                </ul>
-            </div>
-
-            <button class="action-button">Get My Resume</button>
+            <ul class="about-skills-container">
+                <li class="about-skill-container">
+                    <div class="about-skill-heading">
+                        <h4 class="about-heading-small">Languages</h4>
+                        <i class="fa-solid fa-angle-down"></i>
+                    </div>
+                    <div class="about-skill-body-container">
+                        <div class="about-skill-body">
+                            <img class="about-skill-body-img" src="./Img/icon-js.png" alt="js">
+                            <h5 class="about-skill-text">Javascript</h5>
+                        </div>
+                        <div class="about-skill-body">
+                            <img class="about-skill-body-img" src="./Img/icon-html.png" alt="html">
+                            <h5 class="about-skill-text">HTML</h5>
+                        </div>
+                        <div class="about-skill-body">
+                            <img class="about-skill-body-img" src="./Img/icon-css.png" alt="css">
+                            <h5 class="about-skill-text">CSS</h5>
+                        </div>
+                    </div>
+                </li>
+                <li class="about-skill-container">
+                    <div class="about-skill-heading">
+                        <h4 class="about-heading-small">Frameworks</h4>
+                        <i class="fa-solid fa-angle-right"></i>
+                    </div>
+                </li>
+                <hr>
+                <li class="about-skill-container">
+                    <div class="about-skill-heading">
+                        <h4 class="about-heading-small">Skills</h4>
+                        <i class="fa-solid fa-angle-right"></i>
+                    </div>
+                </li>
+                <hr>
+            </ul>
         </div>
-
-
-        <div class="skillset">
-            <div class="languages">
-                <div class="languages-heading">
-                    <span class="language-title">LANGUAGES</span>
-                    <button class="chevron-button">
-                        <img src="./Img/chevron-down.png" alt="" class="chevron">
-                    </button>
-                </div>
-                <ul class="language-list">
-                    <li><img src="./Img/JS-icon.png" alt="" class="language-icon">
-                        <span class="language-name">JavaScript</span>
-                    </li>
-
-                    <li><img src="./Img/HTML5-icon.png" alt="" class="language-icon">
-                        <span class="language-name">HTML</span>
-                    </li>
-
-                    <li><img src="./Img/CSS-icon.png" alt="" class="language-icon">
-                        <span class="language-name">CSS</span>
-                    </li>
-
-
-                </ul>
-            </div>
-
-            <div class="frameworks">
-                <span class="frameworks-title title">Frameworks</span>
-                <button class="chevron-button">
-                    <img src="./Img/chevron-right.png" alt="" class="chevron">
-                </button>
-            </div>
-            <div class="skills">
-                <span class="skills-title title">Skills</span>
-                <button class="chevron-button">
-                    <img src="./Img/chevron-right.png" alt="" class="chevron">
-                </button>
-            </div>
+        <!-- Contact Me Section Starts Here -->
+        <div class="contact-me-form-container">
+            <h1 class="contact-me-form-heading">Contact me</h1>
+            <p class="contact-me-form-paragraph">If you have an application you are interested in developing, a
+                feature that you need built
+                or a project that
+                needs coding. I'd love to help with it</p>
+            <form action="https://formspree.io/f/mqkoaqjr" method="POST" class="contact-me-form">
+                <input class="contact-me-form-text-input" required maxlength="30" name="name" type="text"
+                    placeholder="Enter Your Name">
+                <input class="contact-me-form-text-input" required name="email" type="email"
+                    placeholder="Enter Your Email">
+                <textarea class="contact-me-form-text-input" required maxlength="500" name="message" cols="30" rows="9"
+                    placeholder="Write your message here"></textarea>
+                <button class="contact-me-form-button" type="submit">Get In Touch</button>
+            </form>
         </div>
+        <!-- Contact Me Section Ends Here -->
     </section>
-
-    <section class="contact-form">
-        <h1 class="form-header">Contact me</h1>
-        <p class="form-text">If you have an application you are interested in developing, a feature that you need built or a project that needs coding. 
-            I’d love to help with it </p>
-        <form action="https://formspree.io/f/mgebvyeo" method="POST">
-                    <input type="text" name="userName" maxlength="30" required placeholder="Your Name">
-                    <input type="email" name="email" required name="email" placeholder="Your Email">
-                    <textarea name="message" required name="message" maxlength="500" placeholder="Your Message" rows="10" cols="30"></textarea>
-            <button class="action-button" type="submit">Get in touch</button>
-        </form>
-    </section>
+    <!-- About Section Ends Here -->
 </body>
 
 </html>

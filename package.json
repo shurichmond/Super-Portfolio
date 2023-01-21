@@ -1,22 +1,22 @@
 {
-  "name": "Super-Portfolio",
+  "name": "portfolio",
   "version": "1.0.0",
-  "description": "A project building a  Personal portfolio",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/shurichmond/Super-Portfolio.git"
+    "url": "git+https://github.com/MuhammadUsmanAslam/Portfolio.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/shurichmond/Super-Portfolio/issues"
+    "url": "https://github.com/MuhammadUsmanAslam/Portfolio/issues"
   },
-  "homepage": "https://github.com/shurichmond/Super-Portfolio#readme",
+  "homepage": "https://github.com/MuhammadUsmanAslam/Portfolio#readme",
   "devDependencies": {
     "hint": "^7.1.3",
     "stylelint": "^13.13.1",
