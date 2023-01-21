@@ -128,7 +128,6 @@ i {
   padding-right: 1em;
 }
 
-
 @media screen and (min-width: 768px) {
   /* Header Section Styling Starts Here */
 
@@ -192,7 +191,7 @@ i {
   .contact-me-form-container {
     align-content: center;
     padding: 10% 25%;
-    background-image: url(./assets/contact-form-shapes-desktop.png);
+    background-image: url(../Img/contact-form-shapes-desktop.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
@@ -208,7 +207,6 @@ i {
 
   /* About Section Ends Here */
 }
-
 
 /* Animations and Transitions Start Here */
 @keyframes logo-animation {
