@@ -54,3 +54,38 @@
   line-height: 20px;
   color: #253858;
 }
+
+@media screen and (min-width: 768px) {
+
+  /* About Section Starts Here */
+
+  /* .headline-skill-container {
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    gap: 2em;
+  }
+
+  .about-skills-container {
+    padding: 0 1em;
+    margin-bottom: 1em;
+  }
+
+  .about-skill-body-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 0.75em;
+  }
+
+  .about-skill-body {
+    display: grid;
+    grid-template-rows: 1fr;
+  }
+
+  .about-skill-body-img {
+    padding: 0;
+  }
+
+  .about-skill-text {
+    padding: 0;
+  } */
+}
