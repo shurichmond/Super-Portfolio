@@ -1,77 +1,64 @@
-* {
-  margin: 0;
-  padding: 0;
-}
-
-.contact-form {
-  border-radius: 5em 0 0 0;
-  width: 375px;
-  height: 779px;
-  top: 5410px;
-  padding: 114px 24px;
+.contact-me-form-container {
   display: flex;
+  justify-content: center;
   flex-direction: column;
-  align-items: center;
-  background: #6070ff;
-  background-image: url(../Img/contact-form-shapes.png);
+  margin: 6em 0 0 0;
+  padding: 3em;
+  border-radius: 5em 0 0 0;
+  background-color: #6070ff;
+  background-image: url(../Img/contact-form-shapes-mobile.png);
   background-repeat: no-repeat;
-  background-size: contain;
-  background-position: 100% 20%;
+  background-position-x: right;
 }
 
-.contact-form .form-header {
-  font-family: 'Poppins', sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 40px;
-  line-height: 52px;
-  display: flex;
-  align-items: center;
+.contact-me-form-heading {
   text-align: center;
+  margin-top: 0.75em;
+  font-family: inherit;
   color: #fff;
+  font-weight: 700;
+  font-size: 2.5rem;
+  line-height: 52px;
 }
 
-.contact-form .form-text {
+.contact-me-form-paragraph {
+  cursor: default;
+  text-align: center;
+  margin-top: 0.75em;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
   line-height: 28px;
-  text-align: center;
-  margin: 2em 0;
   color: #ebebff;
 }
 
-form {
+.contact-me-form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 0.75em;
+}
+
+.contact-me-form > input:focus,
+textarea:focus {
+  outline: none !important;
+  border: 1px solid #f7f7f9;
+  box-shadow: 0 0 2px #f7f7f9;
+}
+
+.contact-me-form-text-input {
+  margin-top: 0.75em;
+  padding: 0.75em;
+  border-radius: 0.75em;
   width: 100%;
-  display: grid;
+  border: 1px solid #cfd8dc;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 20px;
 }
 
-form > input,
-textarea {
-  margin: 1em 0;
-  padding: 1em;
-  border-radius: 5px;
-  border: 1px solid #396df2;
-}
-
-form > button {
-  width: fit-content;
-}
-
-button:hover {
-  background: #6070ff;
-  box-shadow: 0 0.5em 1em #4053fc3d;
-  color: #fff;
-}
-
-button:active {
-  background: #2230d2;
-  color: #fff;
-}
-
-button:disabled,
-button[disabled] {
-  border: 1px solid #c1c7d0;
-  color: #5e6c84;
+.contact-me-form-button {
+  align-self: flex-start;
 }
