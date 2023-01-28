@@ -56,9 +56,7 @@
 }
 
 @media screen and (min-width: 768px) {
-  /* About Section Starts Here */
-
-  /* .headline-skill-container {
+  .headline-skill-container {
     display: grid;
     grid-template-columns: 1fr 1.5fr;
     gap: 2em;
@@ -86,5 +84,5 @@
 
   .about-skill-text {
     padding: 0;
-  } */
+  }
 }
