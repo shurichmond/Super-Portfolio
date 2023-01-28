@@ -155,23 +155,6 @@ i {
   }
 
   /* Header Section Styling Ends Here */
-
-  .contact-me-form-container {
-    align-content: center;
-    padding: 10% 25%;
-    background-image: url(../Img/contact-form-shapes-desktop.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
-  }
-
-  .contact-me-form {
-    align-items: center;
-  }
-
-  .contact-me-form-button {
-    margin: 1em auto;
-  }
 }
 
 /* Animations and Transitions Start Here */
