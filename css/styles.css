@@ -64,6 +64,11 @@ header {
   font-weight: 600;
 }
 
+.nav-links a {
+  text-decoration: none;
+  color: inherit;
+}
+
 .nav-link {
   cursor: pointer;
   padding: 0.625em 0.75em;
