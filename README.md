@@ -53,7 +53,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [NOT AVAILABLE FOR NOW](https:#)
+- [NOW AVAILABLE AT](https://shurichmond.github.io/Super-Portfolio/)
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
