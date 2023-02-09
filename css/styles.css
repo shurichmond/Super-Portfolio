@@ -3,8 +3,10 @@
 
 /* Mine starts here */
 * {
-  padding: 0;
   margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
   box-sizing: border-box;
 }
 
@@ -196,13 +198,7 @@ i {
 
 /* My styles end here */
 
-* {
-  margin: 0;
-  padding: 0;
-  text-decoration: none;
-  list-style: none;
-  box-sizing: border-box;
-}
+
 
 .navigation {
   display: flex;
@@ -221,7 +217,7 @@ i {
   left: 0;
   width: 100%;
   height: 100%;
-  background: cyan;
+  background: #fff;
 }
 
 .navlinks.open .links {
