@@ -51,7 +51,7 @@ header {
   animation-duration: 0.5s;
 }
 
-.logo>a {
+.logo > a {
   text-decoration: none;
   color: inherit;
 }
@@ -128,7 +128,7 @@ header {
   list-style: none;
 }
 
-.social-icons>a,
+.social-icons > a,
 i {
   text-decoration: none;
   color: #505f79;
