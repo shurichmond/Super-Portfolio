@@ -51,7 +51,7 @@ header {
   animation-duration: 0.5s;
 }
 
-.logo > a {
+.logo>a {
   text-decoration: none;
   color: inherit;
 }
@@ -128,7 +128,7 @@ header {
   list-style: none;
 }
 
-.social-icons > a,
+.social-icons>a,
 i {
   text-decoration: none;
   color: #505f79;
@@ -215,6 +215,15 @@ i {
   font-weight: 600;
 }
 
+.navlinks .links li a {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  color: #344563;
+}
+
 .navlinks.open {
   display: flex;
   position: absolute;
@@ -223,7 +232,6 @@ i {
   width: 100%;
   height: 100%;
   background: #6070ff;
-  mix-blend-mode: multiply;
 }
 
 .navlinks .links li {
@@ -232,6 +240,7 @@ i {
 
 .navlinks.open .links {
   flex-direction: column;
+  margin-top: 2rem;
 }
 
 .navlinks.open .links li {
@@ -239,9 +248,13 @@ i {
   margin-left: 2rem;
 }
 
-.navlinks .links a {
-  text-decoration: none;
-  color: inherit;
+.navlinks.open .links li a {
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 44px;
 }
 
 .menu .fa-x {
