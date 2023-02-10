@@ -222,7 +222,8 @@ i {
   left: 0;
   width: 100%;
   height: 100%;
-  background: #fff;
+  background: #6070ff;
+  mix-blend-mode: multiply;
 }
 
 .navlinks .links li {
@@ -235,7 +236,7 @@ i {
 
 .navlinks.open .links li {
   margin: 1rem 0;
-  margin-left: 13rem;
+  margin-left: 2rem;
 }
 
 .navlinks .links a {
