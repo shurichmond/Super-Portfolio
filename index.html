@@ -6,17 +6,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/4e655bdddb.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/7b7df0d140.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" type="text/css" href="./css/styles.css">
     <link rel="stylesheet" type="text/css" href="./css/projects.css">
     <link rel="stylesheet" type="text/css" href="./css/about.css">
     <link rel="stylesheet" type="text/css" href="./css/form.css">
+    <!-- <link rel="stylesheet" type="text/css" href="./js/script.js"> -->
     <title>Personal-Profolio</title>
     
 </head>
 
 <body>
     <!-- Header Section Starts Here -->
-    <header>
+    <!-- <header>
         <h1 class="logo"><a href="#">My Logo</a></h1>
         <nav>
             <svg class="nav-menu-button" width="24" height="24" viewBox="0 0 24 24" fill="none"
@@ -25,19 +27,37 @@
                     d="M3 7C3 6.44772 3.44772 6 4 6H20C20.5523 6 21 6.44772 21 7C21 7.55228 20.5523 8 20 8H4C3.44772 8 3 7.55228 3 7ZM3 12C3 11.4477 3.44772 11 4 11L20 11C20.5523 11 21 11.4477 21 12C21 12.5523 20.5523 13 20 13L4 13C3.44772 13 3 12.5523 3 12ZM4 16C3.44772 16 3 16.4477 3 17C3 17.5523 3.44772 18 4 18H20C20.5523 18 21 17.5523 21 17C21 16.4477 20.5523 16 20 16H4Z"
                     fill="#6070FF" />
             </svg>
-            <ul class="nav-links">
+            <i class="fa-solid fa-bars nav-menu-button"></i>
+            <ul id="myLinks" class="nav-links">
                 <li class="nav-link"><a href="#portfolio">Portfolio</a></li>
                 <li class="nav-link"><a href="#about">About</a></li>
                 <li class="nav-link"><a href="#contact">Contact</a></li>
             </ul>
         </nav>
 
-    </header>
+    </header> -->
     <!-- Header Section Ends Here -->
     <!-- Headline Section Starts Here -->
+
+    <header class="navigation">
+        <div class="logo">
+            <h2>My logo</h2>
+        </div>
+        <nav class="navlinks">
+            <ul class="links">
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="menu">
+            <i class="fa-solid fa-bars nav-menu-button"></i>
+            <i class="fa-solid fa-x"></i>
+        </div>
+    </header>
     <section class="headline-main">
         <div class="headline">
-            <h1 class="headline-heading heading-large">I'm Mariane <br> Glad to see you!</h1>
+            <h1 class="headline-heading heading-large">I'm Richmond <br> Glad to see you!</h1>
             <p class="headline-paragraph paragraph">I’m a software developer! I can help you build a product , feature
                 or website
                 Look
@@ -239,6 +259,8 @@
         </div>
         <!-- Contact Me Section Ends Here -->
     </section>
+    <script src="./js/script.js"></script>
+
     <!-- About Section Ends Here -->
 </body>
 
